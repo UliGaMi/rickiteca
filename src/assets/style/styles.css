@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@300;500&display=swap');
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    height: 20vh;
+    display: flex;
+    background-color: #A7CB54;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 0 12px 0 12px;
+}
+
+header img{
+    height: 80%;
+    margin: 0;
+}
+
+header p{
+    font-family: 'Roboto Mono';
+    font-weight: 500;
+    font-size: 32px;
+    color: white;
+}
+
+
+
+header button {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    background: none;
+    border: none;
+    
+}
+
+
+header button:hover{
+    cursor: pointer;
+    
+}
+
+main{
+    background-color: black;
+}
+
+
+.div-cardsContainer{
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.div-card{
+    height: 36vh;
+    width: 50%;
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Mono';
+    color: white;
+
+}
+
+.div-card img{
+    height: 80%;
+    border-radius: 50px;
+}
+
+footer{
+    background-color: #208D45;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono';
+    font-weight: 300;
+    color: white;
+}
+
+footer *{
+    margin: 0px;
+}
+
+.inactive{
+    display: none;
+}
+
+.main{
+    height: 65vh;
+}
